@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(205, 140, 19);
+}
+
+.links > ol li {
+  list-style-type: none;
+}
+
+.links > ol a {
+  text-decoration: none;
+  color: white;
+}
+
+.ollist {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  background-color: aquamarine;
+  padding: 0.5rem 0.6rem;
+}
+
+@media (max-width: 768px) {
+  /* fix nav bar */
+}
+
+header {
+  background-color: rgba(255, 199, 50, 0.724);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+header .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero_text {
+  /*  color: white; */
+  flex-basis: 60%;
+}
+.hero_text h1 {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+.hero_text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+ .btn_one {
+  padding: 0.5rem 0.6rem;
+  color: white;
+  background-color: rgb(0, 179, 255);
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
+.hero_text .btn_two {
+  padding: 0.5rem 0.6rem;
+  margin-left: 1.5rem;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.hero_image > img {
+  height: 400px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}
+
+.main_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main_sec_text {
+  flex-basis: 60%;
+}
+
+.main_sec_text h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.4px;
+}
+
+.main_sec_text p {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+}
+
+.main_sec_text .btn_main {
+  padding: 0.8rem 1rem;
+  background-color: rgba(255, 199, 50, 0.724);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.tilte_sec {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 199, 50, 0.724);
+  width: 100vw;
+}
+.title_text {
+  text-align: center;
+  height: 9rem;
+  color: white;
+}
+.title_text h1 {
+  margin-top: 1.8rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.title_text p {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+}
+.all_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 2rem;
+  color: white;
+}
+.cards {
+  height: 480px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.cards > img {
+  height: 350px;
+}
+
+.cards .cards_text {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.cards .cards_text h3 { 
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.cards .cards_text p{
+    font-size: 1.2rem;
+}
+
+.main_sec_2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main_sec_text_2 {
+    flex-basis: 60%;
+    text-align: right;
+  }
+  
+  .main_sec_text_2 h2 {
+    font-size: 2.4rem;
+    letter-spacing: 0.4px;
+  }
+  
+  .main_sec_text_2 p {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+  }
+  
+  .main_sec_text_2 .btn_main {
+    padding: 0.8rem 1rem;
+    background-color: rgba(255, 199, 50, 0.724);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  .del>span{
+    text-decoration: line-through;
+  }
+  .del{
+    margin-bottom: 1rem;
+  }
+  .btn_pad{
+    margin-top: 1.2rem;
+  }
+  
+  #title_col3{
+    background-color: white;
+  }
+
+  #title_col3 .title_text{
+    color: black;
+  }
+
+  #card_id h3{
+    color: black;
+  } 
+  .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
