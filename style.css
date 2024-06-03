@@ -245,9 +245,9 @@ main {
   #card_id h3{
     color: black;
   } 
-  .links{
+  #links{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
   }
